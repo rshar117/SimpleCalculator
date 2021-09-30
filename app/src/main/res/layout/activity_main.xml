@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="null"
+        android:background="@color/teal_200"
         tools:context=".MainActivity">
 
     <LinearLayout
@@ -24,7 +24,8 @@
                 android:id="@+id/equationText"
                 android:translationY="50dp"/>
         <TextView
-                android:layout_width="215dp" android:layout_height="68dp"
+                android:layout_width="215dp"
+                android:layout_height="68dp"
                 android:text="WORLD"
                 android:textSize="30sp"
                 android:textColor="@color/black"
@@ -62,8 +63,7 @@
                         android:textColor="@color/white"
                         android:text="..."/>
 
-
-                    <Button
+                <Button
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -71,7 +71,6 @@
                         android:textColor="@color/white"
                         android:text="/"
                         android:onClick="divideButton"/>
-
             </LinearLayout>
 
             <LinearLayout
@@ -86,8 +85,7 @@
                         android:background="@null"
                         android:textColor="@color/white"
                         android:text="7"
-                        android:onClick="sevenButton"
-                />
+                        android:onClick="sevenButton"/>
 
 
                 <Button
@@ -238,5 +236,5 @@
                         android:text="="
                         android:onClick="equalsButton"/>
 
-
             </LinearLayout>
+    </LinearLayout>
